@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" role="img" aria-labelledby="title">
+  <title id="title">PizzaJunction pizza mark</title>
+  <defs>
+    <linearGradient id="crust" x1="18" y1="13" x2="82" y2="87" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE29A"/>
+      <stop offset="1" stop-color="#F4A62A"/>
+    </linearGradient>
+    <linearGradient id="sauce" x1="29" y1="23" x2="74" y2="78" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF5940"/>
+      <stop offset="1" stop-color="#B9242D"/>
+    </linearGradient>
+    <filter id="shadow" x="4" y="4" width="92" height="94" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <circle cx="50" cy="48" r="42" fill="#671D25" stroke="#FFF0CF" stroke-width="3"/>
+    <circle cx="50" cy="48" r="35" fill="url(#crust)"/>
+    <circle cx="50" cy="48" r="28" fill="url(#sauce)" stroke="#FFF0CF" stroke-width="2"/>
+    <path d="M50 20v56M22 48h56M30.2 28.2l39.6 39.6m0-39.6L30.2 67.8" stroke="#FCE6A9" stroke-width="1.5" opacity=".82"/>
+    <circle cx="39" cy="37" r="5.2" fill="#A82130" stroke="#F78A62" stroke-width="1.6"/>
+    <circle cx="60" cy="34" r="5.2" fill="#A82130" stroke="#F78A62" stroke-width="1.6"/>
+    <circle cx="63" cy="55" r="5.2" fill="#A82130" stroke="#F78A62" stroke-width="1.6"/>
+    <circle cx="42" cy="61" r="5.2" fill="#A82130" stroke="#F78A62" stroke-width="1.6"/>
+    <path d="M50 38c-5-9-13-8-14-2 5 4 10 5 14 2Zm4 18c8-8 15-4 13 2-5 2-10 1-13-2Z" fill="#326B45" stroke="#B9D57A" stroke-width="1.4" stroke-linejoin="round"/>
+    <circle cx="50" cy="48" r="3.2" fill="#FFF0CF"/>
+  </g>
+  <path d="m18 13 2.2 4.8L25 20l-4.8 2.2L18 27l-2.2-4.8L11 20l4.8-2.2L18 13Z" fill="#FFD76D"/>
+  <path d="m82 67 1.5 3.5L87 72l-3.5 1.5L82 77l-1.5-3.5L77 72l3.5-1.5L82 67Z" fill="#F46A48"/>
+</svg>
